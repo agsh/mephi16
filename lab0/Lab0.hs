@@ -18,7 +18,7 @@ printIt n = C.pack $ show $ [pascal y x | x <- [0..n], y <- [0..x]]
 main :: IO()
 main = 
   withSocketsDo $ do
-  initReq <- parseUrl "http://91.239.142.110/lab0"
+  initReq <- parseUrl "http://91.239.142.110:13666/lab0"
   let req = urlEncodedBody [("email", email), ("name", name), ("content", printIt 20)] $ initReq { method = "POST" }
   response <- withManager $ httpLbs req
 L.putStr $ responseBody response
