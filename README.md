@@ -1,5 +1,6 @@
 #### Результаты лаб можно посмотреть здесь: http://91.239.142.110:13666/labs
 ### [Лекции](https://github.com/agsh/fp-slides)
+### [Курс по Scala](https://www.class-central.com/mooc/422/coursera-functional-programming-principles-in-scala)
 
 # Занятия
 
